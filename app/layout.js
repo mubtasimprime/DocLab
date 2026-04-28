@@ -6,6 +6,7 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 // Hello I am a comment
+// hello I am second comment
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
