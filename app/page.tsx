@@ -1,8 +1,3 @@
-
-export default function Home(){
-    return(
-        <>
-        riayan
-        </>
-    )
+export default function Home() {
+  return <>riayan</>;
 }
