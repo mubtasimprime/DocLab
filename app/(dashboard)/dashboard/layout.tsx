@@ -1,0 +1,13 @@
+import { ReactNode } from "react";
+
+export default function DashLayout({children}:{children:ReactNode}){
+    return(
+        <>
+        <html>
+            <body>
+                {children}
+            </body>
+        </html>
+        </>
+    )
+}
