@@ -1,3 +1,3 @@
-export default function Home() {
-  return <>riayan</>;
+export default function HomePage() {
+  return <div className="font-exo">riayan</div>;
 }
