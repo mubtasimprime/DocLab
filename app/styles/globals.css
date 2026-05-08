@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "./client/client.css";
+@import "./dashboard/dashboard.css";
 
 @theme {
   --font-roboto: "Roboto", sans-serif;
