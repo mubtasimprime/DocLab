@@ -19,7 +19,7 @@ export default function Sidenav(){
                 </div>
 
                 <div>
-                    <button className="size-[22px] rounded-full bg-neutral/15 f-center">
+                    <button className="size-[22px] rounded-full bg-accent/15 flex justify-center items-center transition-all duration-200 ease-linear hover:bg-accent/80">
                         <GoArrowLeft />
                     </button>
                 </div>
