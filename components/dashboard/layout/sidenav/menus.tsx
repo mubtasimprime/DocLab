@@ -99,7 +99,7 @@ export default function Menus() {
               {items.menuTitle.map((subItems, subIndex) => {
                 return (
                   <div
-                    className={`space-y-3 oveflow-y-auto max-h-[50px] overflow-hidden ${index === currentMenu.parentMenu && subIndex === currentMenu.childMenu ? 'max-h-[400px] transition-all duration-500 ease-out':`max-h-0 transition-all duration-500 ease-in`}`}
+                    className={`space-y-3 oveflow-y-auto max-h-[50px] overflow-hidden ${index === currentMenu.parentMenu && subIndex === currentMenu.childMenu ? 'max-h-[400px] transition-all duration-1000 ease-out':`max-h-0 transition-all duration-500 ease-in`}`}
                     key={subIndex}
                   >
                     <button className="flex justify-between items-center py-2 px-3 border border-neutral/10 rounded-xl w-full" onClick={()=>{toggleMenu({parentMenu:index,childMenu:subIndex})}}>

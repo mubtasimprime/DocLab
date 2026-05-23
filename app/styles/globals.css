@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @theme {
   /* fonts */
   --font-roboto: "Roboto", sans-serif;
@@ -10,6 +9,7 @@
   --color-primary: #223a66; /*kind of blue*/
   --color-secondary: #f12454 /*kind of red*/;
   --color-neutral: #000000; /*black */
+  --color-accent: #00D3C7;
 }
 
 @layer components{
