@@ -30,6 +30,6 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-, "components/client/home/TopNav.tsx"  ],
+, "components/client/home/TopNav.tsx", "components/client/home/Navbar.tsx"  ],
   "exclude": ["node_modules"]
 }

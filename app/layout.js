@@ -1,6 +1,7 @@
 import { Exo, Roboto } from "next/font/google";
 import "./styles/globals.css";
 import TopNav from "@/components/client/home/TopNav";
+import Navbar from "@/components/client/home/Navbar";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <TopNav></TopNav>
+        <Navbar></Navbar>
         {children}
       </body>
     </html>
