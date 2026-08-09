@@ -13,12 +13,12 @@ const dropdownLinks = {
 const Navbar = () => {
   return (
     <>
-      <section className="h-25 py-4">
+      <section className="h-24">
         <Container>
           <section className="flex justify-between items-center">
             <div className="flex items-center">
               <Link href={"/"}>
-                <Image className="h-23 w-23" src={Logo} alt="Logo" />
+                <Image className="h-24 w-23" src={Logo} alt="Logo" />
               </Link>
               <div className="text-4xl font-bold font-exo">DocLab</div>
             </div>
