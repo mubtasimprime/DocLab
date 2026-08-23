@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 import Banner from "public/home/Hero.jpeg";
 
 const HeroBanner = () => {
@@ -32,6 +34,16 @@ const HeroBanner = () => {
               quisquam aperiam maiores sunt fugit, deserunt rem suscipit
               placeat.
             </p>
+
+            <Link
+              href="#"
+              className="mt-8 inline-flex items-center gap-3 rounded-full bg-secondary px-5 py-2.5 font-roboto text-sm font-bold tracking-wider text-white uppercase transition-colors hover:bg-secondary/90"
+            >
+              Make Appoinment
+              <span className="flex h-4 w-4 items-center justify-center rounded-full">
+                <ChevronRight className="h-4 w-4" />
+              </span>
+            </Link>
           </div>
         </div>
       </div>
