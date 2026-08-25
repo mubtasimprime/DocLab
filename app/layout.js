@@ -2,6 +2,7 @@ import { Exo, Roboto } from "next/font/google";
 import "./styles/globals.css";
 import TopNav from "@/components/client/home/TopNav";
 import Navbar from "@/components/client/home/Navbar";
+import Footer from "@/components/client/layout/Footer";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <TopNav></TopNav>
         <Navbar></Navbar>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
