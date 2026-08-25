@@ -37,7 +37,7 @@ const services = [
 
 const PatientCare = () => {
   return (
-    <section className="bg-[#f4f9fc] py-24">
+    <section className="relative z-10 -mt-24 bg-[#f4f9fc] pt-40 pb-24">
       <Container>
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-exo text-4xl leading-tight font-bold text-primary lg:text-5xl">
