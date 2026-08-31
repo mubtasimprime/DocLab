@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import BannerImg from "@/public/home/Hero.jpeg";
+import BannerImg from "public/home/Hero.jpeg";
 
 interface AboutBannerProps {
   title?: string;
@@ -23,9 +23,8 @@ export default function AboutBanner({
         className="object-cover object-center"
       />
 
-      {/* Bluish Overlay with gradient */}
-      <div className="absolute inset-0 bg-[#223a66]/85" />
-      <div className="absolute inset-0 bg-linear-to-r from-[#223a66]/90 via-[#223a66]/75 to-[#223a66]/85" />
+      {/* Bluish Overlay matching Novena */}
+      <div className="absolute inset-0 bg-[#223a66]/75" />
 
       {/* Banner Content */}
       <div className="relative z-10 mx-auto px-4 max-w-5xl text-center">
@@ -39,4 +38,3 @@ export default function AboutBanner({
     </section>
   );
 }
-
